@@ -8,7 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-        
+    
+    // containverView2
+    @IBOutlet weak var searchVC2: UIButton!
+    // containerView3
     @IBOutlet weak var containerView3: UIView!
     @IBOutlet weak var subView: UIView!
     @IBOutlet weak var searchCV3: UIButton!
@@ -20,6 +23,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        searchVC2.layer.cornerRadius = 25
         
         image.layer.cornerRadius = 16
         subView.layer.cornerRadius = 12

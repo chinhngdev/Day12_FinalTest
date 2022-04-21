@@ -173,6 +173,7 @@
                         <outlet property="containerView3" destination="9Ba-se-tOk" id="vHa-s7-xQV"/>
                         <outlet property="image" destination="LUS-r2-je2" id="1Is-ZZ-7QO"/>
                         <outlet property="searchCV3" destination="riP-nC-3Nv" id="5B5-4d-mSZ"/>
+                        <outlet property="searchVC2" destination="lM1-ef-XKc" id="F2m-lr-Twq"/>
                         <outlet property="subView" destination="ZD3-f6-NO8" id="GyQ-1a-cc9"/>
                     </connections>
                 </viewController>
